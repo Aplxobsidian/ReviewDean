@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themeBackground">
+
+    <!--  Start : Your code should be within this block -->
+
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryUI"
+        android:elevation="10dp"
+        android:text="  SvyUI"
+        android:textSize="36sp"
+        android:textColor="@color/textCR_UI"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/tv_body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_top"
+
+        android:text="WELCOME TO TAKE PART IN OUR SURVEY !"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:textColor="@color/black"
+        android:layout_margin="30dp"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_body1"
+
+        android:text="Before we start , here are things you should know : \n\n-Please be honest when making your choice . \n\n-We are just doing a reaserch so you don't have to fake your information . \n\n-Please follow the step we designed for you and don't skip any questions ."
+        android:textSize="20sp"
+        android:textFontWeight="5"
+        android:textColor="@color/black"
+        android:textAlignment="textStart"
+        android:gravity="start"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+     />
+
+    <CheckBox
+        android:id="@+id/cbx_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_body2"
+
+        android:text="I accept there requests."
+        android:textSize="24sp"
+
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbx_accept"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/colorButton"
+        android:text="LET'S START!"
+        android:textColor="@color/textCR_BTN"
+        android:textSize="18sp"
+
+        />
+
+
+
+
+    <!-- END    : Your code should be within this block -->
+
+
+</RelativeLayout>

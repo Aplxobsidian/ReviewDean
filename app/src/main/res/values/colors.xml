@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryUI">#77E683</color>
+    <color name="colorButton">#0CE984</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="themeBackground">#ffffff</color>
+    <color name="textCR_BTN">#000000</color>
+    <color name="textCR_UI">#AF6B6B</color>
+    <color name="textCR_QUES">#999191</color>
+</resources>

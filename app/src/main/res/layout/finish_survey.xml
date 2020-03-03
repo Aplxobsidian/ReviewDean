@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryUI"
+        android:elevation="10dp"
+        android:text="  SvyUI"
+        android:textSize="36sp"
+        android:textColor="@color/textCR_UI"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/tv_thx"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="30dp"
+        android:gravity="start"
+        android:text="THANK YOU FOR YOUR ANSWERS!"
+        android:textAlignment="textStart"
+
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/thanks"
+        />
+
+
+
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>

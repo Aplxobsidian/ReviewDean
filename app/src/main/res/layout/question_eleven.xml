@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/themeBackground">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryUI"
+        android:elevation="10dp"
+        android:text="  SvyUI"
+        android:textSize="36sp"
+        android:textColor="@color/textCR_UI"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/tv_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Question 11"
+        android:textSize="30sp"
+        android:gravity="start"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:layout_margin="30dp"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/tv_ques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+
+        android:text="What's your gender?"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:textAlignment="textStart"
+        android:textColor="@color/textCR_QUES"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rad_select_q11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_next_q11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/colorButton"
+        android:text="NEXT"
+        android:textColor="@color/textCR_BTN"
+        android:textSize="18sp"
+
+        />
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>

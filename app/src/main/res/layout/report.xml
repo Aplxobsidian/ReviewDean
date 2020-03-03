@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryUI"
+        android:elevation="10dp"
+        android:text="  SvyUI"
+        android:textSize="36sp"
+        android:textColor="@color/textCR_UI"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/tv_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_top"
+        android:text="Report for the questions."
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        />
+    <ScrollView
+        android:id="@+id/scv_answer_show"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/tv_head">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_ques_q1"
+                style="@style/reportQuestions"
+                android:text="What brand of phone will you choose if you are going to buy a new one?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q2"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q1"
+                android:text="How much does your phone cost?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q3"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q2"
+                android:text="What kind of phone are you using?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q4"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q3"
+                android:text="What functions does your phone have now?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q5"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q4"
+                android:text="What functions are the most often used?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q6"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q5"
+                android:text="What function do you expect your phone to have in the future?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q7"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q6"
+                android:text="In which condition will you buy a new phone?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q8"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q7"
+                android:text="What brand of phone will you choose if you are going to buy a new one?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q9"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q8"
+                android:text="What characteristic do you think is most important to evaluate a phone?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q10"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q9"
+                android:text="How old are you?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q11"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q10"
+                android:text="What's your gender?"
+                />
+            <TextView
+                android:id="@+id/tv_ques_q12"
+                style="@style/reportQuestions"
+                android:layout_below="@id/tv_ques_q11"
+                android:text="How much money do you earn per month?"
+                />
+
+            <TextView
+                android:id="@+id/tv_answ_q1"
+                style="@style/reportAnswers"
+                android:text="ddd"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q2"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q1"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q3"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q2"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q4"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q3"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q5"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q4"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q6"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q5"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q7"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q6"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q8"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q7"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q9"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q8"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q10"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q9"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q11"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q10"
+                />
+            <TextView
+                android:id="@+id/tv_answ_q12"
+                style="@style/reportAnswers"
+                android:layout_below="@id/tv_answ_q11"
+                />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scv_answer_show"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/colorButton"
+        android:text="SAVE"
+        android:textColor="@color/textCR_BTN"
+        android:textSize="18sp"
+        />
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_save"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/colorButton"
+        android:text="FINISH"
+        android:textColor="@color/textCR_BTN"
+        android:textSize="18sp"
+
+        />
+
+
+</RelativeLayout>
